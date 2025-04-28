@@ -7,6 +7,6 @@ describe('App', () => {
     it('renders', () => {
         render(<App />);
 
-        expect(screen.getByText("Vite + React")).toBeInTheDocument();
+        expect(screen.getByText("Pocket Poker Pal")).toBeInTheDocument();
     })
 })
