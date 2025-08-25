@@ -27,7 +27,7 @@ export const Button = ({
             "bg-primary text-white hover:bg-primary/90 focus:ring-primary",
         secondary:
         // uses your --color-secondary token
-            "bg-secondary text-white outline-2 outline-offset-2 outline-tertiary hover:bg-secondary/90 focus:ring-secondary",
+            "bg-secondary text-white outline-2 outline-offset-2 outline-tertiary hover:bg-tertiary/90 focus:ring-secondary",
         danger:
             "bg-red-600 text-white hover:bg-red-700 focus:ring-red-500",
     };

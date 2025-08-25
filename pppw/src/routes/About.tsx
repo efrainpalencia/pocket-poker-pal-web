@@ -1,4 +1,9 @@
+import {Button} from "../components/ui/Button.tsx";
+import {useNavigate} from "react-router-dom";
+
 export default function About() {
+    const navigate = useNavigate();
+
     return (
         <main className="bg-secondary text-white">
             {/* Hero */}
@@ -102,18 +107,20 @@ export default function About() {
 
                 {/* CTA */}
                 <div className="mt-6 flex flex-col sm:flex-row items-center gap-3">
-                    <a
-                        href="/chat"
-                        className="w-full sm:w-auto inline-flex items-center justify-center rounded-xl bg-primary px-4 py-2 font-semibold text-black hover:brightness-110 transition"
+                    <Button
+                        type="button"
+                        variant="primary"
+                        onClick={() => navigate("/chat")}
                     >
                         Ask a Question
-                    </a>
-                    <a
-                        href="/"
-                        className="w-full sm:w-auto inline-flex items-center justify-center rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:bg-white/10 transition"
+                    </Button>
+                    <Button
+                        type="button"
+                        variant="secondary"
+                        onClick={() => navigate("/")}
                     >
                         Back to Home
-                    </a>
+                    </Button>
                 </div>
             </section>
         </main>
