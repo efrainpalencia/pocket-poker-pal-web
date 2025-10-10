@@ -32,32 +32,6 @@ Built with **React + TypeScript + Vite + Tailwind CSS**, it connects seamlessly 
 
 ---
 
-## 🗂️ Project Structure
-
-pocket-poker-pal-frontend/
-│
-├── src/
-│ ├── assets/ # Images and icons
-│ ├── components/ # Reusable UI components
-│ │ ├── chat/ # Chat message bubbles & UI
-│ │ └── ui/ # Buttons, inputs, etc.
-│ ├── hooks/ # Custom hooks (audio, auth, etc.)
-│ ├── lib/ # API clients and utility functions
-│ ├── pages/ # Page views (Home, Chat, Login, etc.)
-│ ├── store/ # Zustand store (chat sessions, auth)
-│ ├── styles/ # Global styles
-│ └── main.tsx # App entry point
-│
-├── public/ # Static files
-├── index.html # Root HTML
-├── tsconfig.json # TypeScript config
-├── vite.config.ts # Vite config
-├── tailwind.config.js # Tailwind config
-└── package.json # Dependencies & scripts
-
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
